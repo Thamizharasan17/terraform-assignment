@@ -1,0 +1,31 @@
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mDeprecated Parameter[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mThe parameter "dynamodb_table" is deprecated. Use parameter "use_lockfile" instead.
+[33m╵[0m[0m
+[0m[1mmodule.vpc.aws_eip.nat: Refreshing state... [id=eipalloc-0efde82999daa5c5c][0m
+[0m[1mmodule.vpc.aws_vpc.main: Refreshing state... [id=vpc-07791e112c76890ed][0m
+[0m[1mmodule.vpc.aws_internet_gateway.igw: Refreshing state... [id=igw-0d85dd69a3b785d83][0m
+[0m[1mmodule.vpc.aws_subnet.private_2: Refreshing state... [id=subnet-0a829108fce268e8a][0m
+[0m[1mmodule.vpc.aws_subnet.public_2: Refreshing state... [id=subnet-0f5e52d42d9ae1bfe][0m
+[0m[1mmodule.vpc.aws_subnet.private_1: Refreshing state... [id=subnet-08d9de1f73cfbed77][0m
+[0m[1mmodule.vpc.aws_subnet.public_1: Refreshing state... [id=subnet-0e40b7d8700e4b86b][0m
+[0m[1mmodule.security_group.aws_security_group.alb: Refreshing state... [id=sg-0735cee49261f5bc6][0m
+[0m[1mmodule.alb.aws_lb_target_group.this: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-south-1:474939504549:targetgroup/dev-tg/fa24a3a372be8bb0][0m
+[0m[1mmodule.vpc.aws_route_table.public: Refreshing state... [id=rtb-03c7dc515bb9baba6][0m
+[0m[1mmodule.vpc.aws_route_table_association.public_2: Refreshing state... [id=rtbassoc-0cf28ba611aef0ab0][0m
+[0m[1mmodule.security_group.aws_security_group.ec2: Refreshing state... [id=sg-017ffac32c99e4963][0m
+[0m[1mmodule.vpc.aws_route_table_association.public_1: Refreshing state... [id=rtbassoc-0c7a45a008ae99cfa][0m
+[0m[1mmodule.vpc.aws_nat_gateway.nat: Refreshing state... [id=nat-0e979ff4e94e0b121][0m
+[0m[1mmodule.alb.aws_lb.this: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-south-1:474939504549:loadbalancer/app/dev-alb/3d0f94d66d6f5c52][0m
+[0m[1mmodule.vpc.aws_route_table.private: Refreshing state... [id=rtb-0f676502b9a1ed198][0m
+[0m[1mmodule.asg.aws_launch_template.this: Refreshing state... [id=lt-08338ee7a820a76f0][0m
+[0m[1mmodule.vpc.aws_route_table_association.private_1: Refreshing state... [id=rtbassoc-0b60afcd694756f39][0m
+[0m[1mmodule.vpc.aws_route_table_association.private_2: Refreshing state... [id=rtbassoc-03942d1da69f899ee][0m
+[0m[1mmodule.asg.aws_autoscaling_group.this: Refreshing state... [id=dev-asg][0m
+[0m[1mmodule.alb.aws_lb_listener.http: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-south-1:474939504549:listener/app/dev-alb/3d0f94d66d6f5c52/0527de1b0a4ad7c6][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
