@@ -56,8 +56,13 @@ The infrastructure includes:
 terraform-assignment/
 │
 ├── README.md
-├── .gitignore
 ├── plan.txt
+├── .gitignore
+├── terraform.lock.hcl
+│
+├── .github/
+│   └── workflows/
+│       └── terraform-ci.yml
 │
 ├── environments/
 │   ├── dev/
@@ -68,6 +73,7 @@ terraform-assignment/
     ├── security-group/
     ├── alb/
     └── asg/
+    
 ```
 
 ---
