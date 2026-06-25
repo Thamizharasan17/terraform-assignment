@@ -163,6 +163,29 @@ terraform destroy
 
 ---
 
+## Stretch Goal
+
+A GitHub Actions workflow has been added to automatically run Terraform checks on every Pull Request.
+
+The workflow performs:
+
+- terraform fmt -check
+- terraform init
+- terraform validate
+- terraform plan
+
+### Handling Infrastructure Drift
+
+Infrastructure drift can occur when AWS resources are modified manually outside Terraform.
+
+To handle drift:
+
+- Regularly run `terraform plan` to detect unexpected changes.
+- Use `terraform apply` to reconcile infrastructure with the desired state.
+- Restrict manual changes using IAM policies.
+- Ensure all infrastructure updates are performed through Terraform to keep the state consistent.
+
+
 ## Notes
 
 * Terraform modules are reusable.
@@ -170,3 +193,5 @@ terraform destroy
 * State locking is configured using DynamoDB.
 * Terraform state files are excluded from Git using `.gitignore`.
 * A clean Terraform plan is included as `plan.txt`.
+* Automatically posting the Terraform plan as a Pull Request comment is acknowledged as part of the stretch goal but has not been implemented in this assignment.
+
